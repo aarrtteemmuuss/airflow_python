@@ -5,8 +5,8 @@ ENV TERM linux
 ENV PYTHONUNBUFFERED 1
 
 # Airflow
-ARG AIRFLOW_VERSION=1.10.6
-ARG PYTHON_DEPS="bs4==0.0.1 cryptography==2.6.1 lxml==4.2.4 Pillow==5.4.1 flask-bcrypt==0.7.1 kubernetes==10.0.0"
+ARG AIRFLOW_VERSION=1.10.7
+ARG PYTHON_DEPS="bs4==0.0.1 cryptography==2.6.1 lxml==4.2.4 Pillow==5.4.1 flask-bcrypt==0.7.1 kubernetes==11.0.0"
 
 # Disable noisy "Handling signal" log messages:
 # ENV GUNICORN_CMD_ARGS --log-level WARNING
